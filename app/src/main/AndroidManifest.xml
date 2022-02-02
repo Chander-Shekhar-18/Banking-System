@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BankingSystem">
         <activity
+            android:name=".UI.SendToUserList"
+            android:exported="false" />
+        <activity
+            android:name=".UI.UserData"
+            android:exported="false" />
+        <activity
+            android:name=".UI.TransactionHistory"
+            android:exported="false" />
+        <activity
+            android:name=".UI.UserList"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
