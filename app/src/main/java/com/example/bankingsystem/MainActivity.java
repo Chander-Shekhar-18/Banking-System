@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private void initViews() {
         btnAllUsers = findViewById(R.id.all_users);
         btnAllTransactions = findViewById(R.id.all_transactions);
-        tvBankTitle = findViewById(R.id.bank_title);
     }
 
     public void showAllUsers(View view) {

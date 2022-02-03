@@ -61,15 +61,15 @@ public class TransactionHistoryAdapter extends RecyclerView.Adapter<TransactionH
         viewHolder.itemView.setTag(transactionArrayList.get(position));
         viewHolder.fromName.setText(transactionArrayList.get(position).getFromUser());
         viewHolder.toName.setText(transactionArrayList.get(position).getToUser());
-        viewHolder.amountTransferred.setText(String.format("%d", transactionArrayList.get(position).getAmountTransferred()));
+        viewHolder.amountTransferred.setText("₹ " +String.format("%d", transactionArrayList.get(position).getAmountTransferred()));
 
 
-        if (transactionArrayList.get(position).getStatus() == 1) {
-            viewHolder.cardView.setCardBackgroundColor(Color.argb(100, 105, 187, 105));
-        }
-        else {
-            viewHolder.cardView.setCardBackgroundColor(Color.argb(100, 239, 100, 100));
-        }
+//        if (transactionArrayList.get(position).getStatus() == 1) {
+//            viewHolder.cardView.setCardBackgroundColor(Color.argb(100, 105, 187, 105));
+//        }
+//        else {
+//            viewHolder.cardView.setCardBackgroundColor(Color.argb(100, 239, 100, 100));
+//        }
     }
 
     @Override

@@ -11,18 +11,23 @@
         android:theme="@style/Theme.BankingSystem">
         <activity
             android:name=".UI.SendToUserList"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".UI.UserData"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".UI.TransactionHistory"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".UI.UserList"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

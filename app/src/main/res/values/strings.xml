@@ -3,6 +3,7 @@
     <string name="banking_system_app">Banking System App</string>
     <string name="all_users">All Users</string>
     <string name="all_transactions">All Transactions</string>
-    <string name="sparks_foundation_chinmay">Sparks Foundation - Chinmay</string>
+    <string name="sparks_foundation_chinmay">Sparks Foundation</string>
     <string name="select_a_user_to_transfer_money">Select a user to transfer money</string>
+    <string name="my_banking_app">My Banking App</string>
 </resources>

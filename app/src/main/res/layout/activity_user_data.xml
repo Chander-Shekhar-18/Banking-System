@@ -29,7 +29,7 @@
             android:layout_weight="0.1"
             android:fontFamily="serif"
             android:text="Name : "
-            android:textColor="#4859DE"
+            android:textColor="@color/toolbar_color"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -59,7 +59,7 @@
             android:textSize="18sp"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textColor="#4859DE"
+            android:textColor="@color/toolbar_color"
             android:text="Account No : "/>
 
         <TextView
@@ -88,7 +88,7 @@
             android:textSize="18sp"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textColor="#4859DE"
+            android:textColor="@color/toolbar_color"
             android:text="Email : "/>
 
         <TextView
@@ -117,7 +117,7 @@
             android:textSize="18sp"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textColor="#4859DE"
+            android:textColor="@color/toolbar_color"
             android:text="IFSC Code : "/>
 
         <TextView
@@ -146,7 +146,7 @@
             android:textSize="18sp"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textColor="#4859DE"
+            android:textColor="@color/toolbar_color"
             android:text="Mobile No : "/>
 
         <TextView
@@ -175,7 +175,7 @@
             android:textSize="18sp"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textColor="#4859DE"
+            android:textColor="@color/toolbar_color"
             android:text="Current Balance : "/>
 
         <TextView
@@ -196,8 +196,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:textStyle="bold"
-        android:backgroundTint="#4859DE"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/toolbar_color"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"/>
