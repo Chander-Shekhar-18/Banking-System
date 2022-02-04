@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/BankingSystem/app/src/main/res/drawable-v24/ic_back.xml" value="0.2035" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/BankingSystem/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1905" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/BankingSystem/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/BankingSystem/app/src/main/res/layout/activity_send_to_user_list.xml" value="0.23229166666666667" />

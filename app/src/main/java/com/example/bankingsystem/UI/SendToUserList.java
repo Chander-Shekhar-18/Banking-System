@@ -11,6 +11,8 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.bankingsystem.DB.TransactionContract;
@@ -44,6 +46,17 @@ public class SendToUserList extends AppCompatActivity implements SendToUserAdapt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_to_user_list);
+
+        findViewById(R.id.sendMoneyBackBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        TextView textView = findViewById(R.id.txtViewSendMoneyTitle);
+        textView.setText("Send Money");
+
         // Get time instance
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMM-yyyy, hh:mm a");

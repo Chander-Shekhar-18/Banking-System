@@ -26,6 +26,17 @@ public class UserData extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_data);
 
+        findViewById(R.id.userDetailBackBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        TextView textView = findViewById(R.id.txtViewUserDetailTitle);
+        textView.setText("User Detail");
+
+
         initViews();
         // Getting the intent
         Intent intent = getIntent();

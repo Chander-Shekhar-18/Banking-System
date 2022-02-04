@@ -34,6 +34,17 @@ public class TransactionHistory extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction_history);
+
+        findViewById(R.id.transactionBackBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        TextView textView = findViewById(R.id.txtViewTransactionTitle);
+        textView.setText("Transactions");
+
         // Get TextView
         emptyList = findViewById(R.id.empty_text);
 

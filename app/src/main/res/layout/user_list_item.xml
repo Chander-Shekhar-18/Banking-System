@@ -17,6 +17,7 @@
             android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
             android:layout_alignParentTop="true"
             android:layout_marginStart="10dp"
             android:text="User Name"
@@ -35,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
+                android:fontFamily="@font/regular"
                 android:text="₹"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
@@ -44,6 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
+                android:fontFamily="@font/regular"
                 android:text="7000"
                 android:textColor="@color/black"
                 android:textSize="16sp" />

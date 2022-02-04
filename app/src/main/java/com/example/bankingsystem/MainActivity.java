@@ -23,6 +23,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initViews();
+
+//        findViewById(R.id.mainBackBtn).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                finish();
+//            }
+//        });
+
+        TextView textView = findViewById(R.id.txtViewMainTitle);
+        textView.setText("Banking System");
     }
 
     private void initViews() {

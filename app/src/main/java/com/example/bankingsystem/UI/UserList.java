@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import com.example.bankingsystem.DB.UserContract;
 import com.example.bankingsystem.DB.UserHelper;
@@ -27,6 +29,18 @@ public class UserList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_list);
+
+        findViewById(R.id.allUserBackBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        TextView textView = findViewById(R.id.txtViewAllUserTitle);
+        textView.setText("All Users");
+
+
         // Create ArrayList of Users
         userArrayList = new ArrayList<User>();
 
@@ -43,7 +57,7 @@ public class UserList extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        myAdapter = new UserListAdapter(this,userArrayList);
+        myAdapter = new UserListAdapter(this, userArrayList);
         recyclerView.setAdapter(myAdapter);
 
     }
@@ -60,7 +74,7 @@ public class UserList extends AppCompatActivity {
         int nameColumnIndex = cursor.getColumnIndex(UserContract.UserEntry.COLUMN_USER_NAME);
         int accountBalanceColumnIndex = cursor.getColumnIndex(UserContract.UserEntry.COLUMN_USER_ACCOUNT_BALANCE);
 
-        while (cursor.moveToNext()){
+        while (cursor.moveToNext()) {
             String currentName = cursor.getString(nameColumnIndex);
             int accountNumber = cursor.getInt(accountNumberColumnIndex);
             String email = cursor.getString(emailColumnIndex);

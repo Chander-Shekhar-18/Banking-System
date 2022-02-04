@@ -25,6 +25,7 @@
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="From"
+                android:fontFamily="@font/bold"
                 android:textAlignment="center"
                 android:textColor="@color/toolbar_color"
                 android:textSize="18sp"
@@ -38,12 +39,14 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="3dp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/regular"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
                 android:gravity="end"
                 android:text="Amount"
                 android:textColor="@color/toolbar_color"
@@ -63,6 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="To "
+                android:fontFamily="@font/bold"
                 android:textColor="@color/toolbar_color"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -72,6 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Transaction Cancelled"
+                android:fontFamily="@font/regular"
                 android:paddingStart="10dp"
                 android:paddingEnd="3dp"
                 android:textColor="@color/black"
@@ -83,6 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end"
+                android:fontFamily="@font/regular"
                 android:hint="Not Set"
                 android:textColor="@color/black"
                 android:textSize="18sp"
