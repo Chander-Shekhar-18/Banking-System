@@ -1,50 +1,41 @@
 # Basic Banking App
 
 ## About
-* Banking System App which keeps track of its user's and their transaction history.
-* Uses MYSQLite for Database storage.
+* It is a basic application based on Banking System. In this application, you can see all users and users details.
+* You can transfer money to any user also.
 
 ## Screenshots!
 
-### Homescreen 
-<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-20-850_com.example.bankingsystem.jpg" width ="250px" height ="450px"> 
+### Home Screen 
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-20-850_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
-----------  --------------------------------
+### User List 
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-24-120_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
-### Users List 
-<img src="https://user-images.githubusercontent.com/74097022/126522349-7d9e36c0-3283-4e13-9393-56e85fa457c6.jpeg" width ="250px" height ="450px">
-
-------------------------------------------
-
-### Users Data
-<img src="https://user-images.githubusercontent.com/74097022/126522013-89e00826-3e0c-44d2-af24-77ed6a318462.jpeg" width ="250px" height ="450px">
-
-------------------------------------------
+### User Detail
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-26-751_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
 ### Transfer Amount
-<img src="https://user-images.githubusercontent.com/74097022/126523838-6db4ef8e-88c3-4c1e-b39e-172fec384093.jpeg" width ="250px" height ="450px"> <img src="https://user-images.githubusercontent.com/74097022/126523964-22ed39bf-2318-4a4d-8c33-757f16ca3212.jpeg" width ="250px" height ="450px">   
-
-------------------------------------------
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-33-184_com.example.bankingsystem.jpg" width ="250px" height ="450px"> 
 
 ### Select User To Transfer Money
-<img src="https://github.com/Chinmay2660/MyBankingApp/blob/master/images/Select%20a%20User%20to%20Transfer%20Money%20To.jpeg" width ="250px" height ="450px">
-
-------------------------------------------
-
-### Transaction Successful
-<img src="https://user-images.githubusercontent.com/74097022/126522745-602b25fb-f952-435b-9a06-05ff23ef4b22.jpeg" width ="250px" height ="450px">
-
-------------------------------------------
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-40-344_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
 ### Updated Amount In Users List
-<img src="https://user-images.githubusercontent.com/74097022/126523594-57e86c5e-6bb0-4ed8-a5d0-23b4a1c1f30b.jpeg" width ="250px" height ="450px">
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-26-751_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
-------------------------------------------
-
-### Transaction History Showing Successfull & Cancelled Transactions
-<img src="https://user-images.githubusercontent.com/74097022/126522868-842334c7-540e-4c71-b8f4-4e1534695298.jpeg" width ="250px" height ="450px">
-
-------------------------------------------
+### Transaction History Showing Successful & Cancelled Transactions
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-49-411_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
 
+## Installation
 
+Clone this repository
+
+```bash
+  https://github.com/Chander-Shekhar-18/Banking-System.git
+```
+
+
+## 🚀 About Me
+My name is Chander Shekhar. I am a full stack android developer.
