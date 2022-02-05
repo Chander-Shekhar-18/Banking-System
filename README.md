@@ -22,7 +22,7 @@
 <img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-40-344_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
 ### Updated Amount In Users List
-<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-26-751_com.example.bankingsystem.jpg" width ="250px" height ="450px">
+<img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-24-120_com.example.bankingsystem.jpg" width ="250px" height ="450px">
 
 ### Transaction History Showing Successful & Cancelled Transactions
 <img src="https://github.com/Chander-Shekhar-18/Banking-System/blob/master/images/Screenshot_2022-02-04-20-18-49-411_com.example.bankingsystem.jpg" width ="250px" height ="450px">
